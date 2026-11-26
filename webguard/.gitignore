@@ -1,0 +1,35 @@
+# Secrets & Environment
+.env
+*.env
+!.env.example
+*.pem
+*.key
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

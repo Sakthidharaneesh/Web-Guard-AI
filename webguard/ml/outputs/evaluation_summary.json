@@ -1,0 +1,36 @@
+{
+  "traffic": {
+    "gbr": {
+      "MAE": 326.76,
+      "RMSE": 482.15,
+      "MAPE": 16.38,
+      "R2": 0.8523
+    },
+    "sarima": {
+      "MAE": 986.67,
+      "RMSE": 1314.98,
+      "MAPE": 44.85,
+      "R2": -0.0984
+    },
+    "baseline": 2986.2306238185256,
+    "sigma": 1748.5371514140145
+  },
+  "attack": {
+    "Accuracy": 1.0,
+    "Precision": 1.0,
+    "Recall": 1.0,
+    "F1": 1.0,
+    "TN": 2100,
+    "FP": 0,
+    "FN": 0,
+    "TP": 1400
+  },
+  "client": {
+    "total_profiles": 1000,
+    "normal_count": 970,
+    "anomalous_count": 30,
+    "min_score": 0.3366,
+    "max_score": 0.8157,
+    "mean_score": 0.3856
+  }
+}
